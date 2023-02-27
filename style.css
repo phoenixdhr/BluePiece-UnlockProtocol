@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    background-image: url("./ma2.jpg"); /* imagen de fondo */
+    background-size: cover;
+  }
+  
+  .container {
+    padding-top: 50px;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .btn-donar {
+    background-color: #5cb85c;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 0;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el menú */
+  .navbar {
+    background-color: #333;
+    color: white;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  .navbar-nav > li > a {
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  .navbar-nav > li.active > a {
+    background-color: #5cb85c;
+  }
+  
+  /* Estilos para la sección de donación */
+  .donacion {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav > li > a {
+      font-size: 1em;
+      padding: 10px 10px;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+    
+    p {
+      font-size: 1em;
+    }
+    
+    .btn-donar {
+      font-size: 1.2em;
+    }
+  }
+  
